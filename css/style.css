@@ -36,10 +36,10 @@ body, ul, li {
 a:hover {
   color: #fff; }
 
-.icon {
+.icon-search {
   font-size: 1.5rem;
   color: #808080; }
-  .icon:hover {
+  .icon-search:hover {
     color: #2c2b2b; }
 
 .last-nav__text {
@@ -47,7 +47,7 @@ a:hover {
   .last-nav__text:hover {
     color: #000; }
 
-.icon-2 {
+.icon-arrow {
   font-size: .7rem;
   padding-top: 6.7px;
   padding-left: 3px;
