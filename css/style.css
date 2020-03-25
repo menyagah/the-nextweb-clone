@@ -62,9 +62,8 @@ body, ul, li {
   padding: 0 16px 0 0;
   line-height: 11px;
   color: #979696; }
-
-.center-nav:hover {
-  color: #000; }
+  .center-nav:hover {
+    color: #000; }
 
 .navi a:nth-child(1) {
   color: white; }

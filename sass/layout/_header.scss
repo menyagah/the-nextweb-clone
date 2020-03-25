@@ -61,11 +61,13 @@
     padding: 0 16px 0 0;
     line-height: 11px;
     color: rgb(151, 150, 150);
+
+    &:hover{
+        color: #000; 
+    }
 }
 
-.center-nav:hover{
-    color: #000; 
-}
+
 
 .navi a:nth-child(1){
     color: white;
