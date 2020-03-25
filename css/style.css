@@ -39,9 +39,13 @@ a:hover {
 .icon {
   font-size: 1.5rem;
   color: #808080; }
+  .icon:hover {
+    color: #2c2b2b; }
 
 .last-nav__text {
   color: #000; }
+  .last-nav__text:hover {
+    color: #000; }
 
 .icon-2 {
   font-size: .7rem;
