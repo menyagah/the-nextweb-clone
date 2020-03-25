@@ -1,5 +1,6 @@
 .top-nav,
-.center-nav{
+.center-nav,
+.last-nav__text{
     text-decoration: none;
     font-weight: 500;
     font-size: 0.81rem;
@@ -30,4 +31,14 @@ a:hover{
     color: $color-grey;
 }
 
+.last-nav__text {
+    color: $color-black;
+}
+
+.icon-2 {
+    font-size: .7rem;
+    padding-top: 6.7px;
+    padding-left: 3px;
+    color: $color-black;
+}
  

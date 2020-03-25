@@ -15,7 +15,8 @@ body, ul, li {
   box-sizing: border-box; }
 
 .top-nav,
-.center-nav {
+.center-nav,
+.last-nav__text {
   text-decoration: none;
   font-weight: 500;
   font-size: 0.81rem;
@@ -39,12 +40,21 @@ a:hover {
   font-size: 1.5rem;
   color: #808080; }
 
+.last-nav__text {
+  color: #000; }
+
+.icon-2 {
+  font-size: .7rem;
+  padding-top: 6.7px;
+  padding-left: 3px;
+  color: #000; }
+
 .header {
   display: grid;
   grid-template-columns: .1fr 1fr;
   grid-template-rows: 1fr 2fr 1fr;
   height: 10vh; }
-  .header__top-container, .header__center-container {
+  .header__top-container, .header__center-container, .header__last-container {
     display: flex;
     justify-content: space-between;
     align-items: center; }
@@ -64,10 +74,13 @@ a:hover {
     grid-column: 1 / 3;
     grid-row: 3 / 4;
     background-color: #FFDD33;
-    height: 1.9rem; }
-  .header__search-bar {
-    border-left: 1px solid #EDEDED;
+    height: 1.9rem;
+    justify-content: flex-start;
+    padding: 0 1.88rem 0 1.25rem; }
+  .header__search-bar, .header__last-nav {
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: center; }
+  .header__search-bar {
+    border-left: 1px solid #EDEDED;
     padding-left: 0.93rem; }
