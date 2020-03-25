@@ -2,18 +2,18 @@
 .center-nav{
     text-decoration: none;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 0.81rem;
     color: $color-grey;
 }
 
 .top-nav{
-    line-height: 32px;
-    padding: 0px 5px 0 0;
+    line-height: 2rem;
+    padding: 0px 0.5rem 0 0;
 }
 
 .center-nav{
-    padding: 0 16px 0 0;
-    line-height: 11px;
+    padding: 0 1rem 0 0;
+    line-height: 0.7rem;
 
     &:hover{
         color: $color-black; 
@@ -24,5 +24,10 @@
 a:hover{
     color: $color-white;
    }
+
+.icon {
+    font-size: 1.5rem;
+    color: $color-grey;
+}
 
  
