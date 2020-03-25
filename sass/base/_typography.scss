@@ -1,0 +1,28 @@
+.top-nav,
+.center-nav{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    color: $color-grey;
+}
+
+.top-nav{
+    line-height: 32px;
+    padding: 0px 5px 0 0;
+}
+
+.center-nav{
+    padding: 0 16px 0 0;
+    line-height: 11px;
+
+    &:hover{
+        color: $color-black; 
+    }
+}
+
+.navi a:nth-child(1),
+a:hover{
+    color: $color-white;
+   }
+
+ 
