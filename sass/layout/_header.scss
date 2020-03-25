@@ -6,7 +6,9 @@
 
     &__top-container,
     &__center-container,
-    &__last-container{
+    &__last-container,
+    &__search-bar,
+    &__last-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +28,7 @@
         grid-row: 2 / 3;
         background-color: $color-header-center; 
         height: 3.1rem;
-        padding: 0 1.88rem 0 1.25rem;
+        padding: 0 0 0 1.25rem;
     }
 
     &__last-container {
@@ -41,13 +43,12 @@
     &__search-bar,
     &__last-nav {
         height: 100%;
-        display: flex;
-        align-items: center;
     }
 
     &__search-bar {
         border-left: 1px solid $color-border;
-        padding-left: 0.93rem;
+        justify-content: center;
+        width: 4rem;
     } 
 }
 
