@@ -221,32 +221,20 @@ a:hover {
     grid-column: 2 / 3;
     grid-row: 2 / 3; }
   .section-latestnews__container3 {
-    background-color: indigo;
-    height: 200px;
     grid-column: 3 / 4;
     grid-row: 2 / 3; }
   .section-latestnews__container4 {
-    background-color: indigo;
-    height: 200px;
     grid-column: 4 / 5;
     grid-row: 2 / 3; }
   .section-latestnews__container5 {
-    background-color: indigo;
-    height: 200px;
     grid-column: 1 / 2;
     grid-row: 3 / 4; }
   .section-latestnews__container6 {
-    background-color: indigo;
-    height: 200px;
     grid-column: 2 / 3;
     grid-row: 3 / 4; }
   .section-latestnews__container7 {
-    background-color: indigo;
-    height: 200px;
     grid-column: 3 / 4;
     grid-row: 3 / 4; }
   .section-latestnews__container8 {
-    background-color: indigo;
-    height: 200px;
     grid-column: 4 / 5;
     grid-row: 3 / 4; }
