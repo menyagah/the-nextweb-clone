@@ -11,6 +11,8 @@
     }
 
     &__container-box1{
+        display: flex;
+        flex-direction: column;
         padding: 0.63rem;
         background-image: linear-gradient( 
             to  bottom, 
@@ -20,6 +22,10 @@
     }
     
     &__container-box2{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 1rem;
         background-image: linear-gradient( 
             to  bottom,
             rgba($color-gradient-gray, .1),
@@ -28,6 +34,10 @@
     }
     
     &__container-box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 1rem;
         background-image: linear-gradient( 
             to  bottom,
             rgba($color-gradient-gray, .1),

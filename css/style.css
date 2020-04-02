@@ -53,8 +53,12 @@ a:hover {
   padding-left: 3px;
   color: #000; }
 
+.top-part,
+.bottom-part,
+.bottom-part__sub {
+  display: flex; }
+
 .top-part {
-  display: flex;
   justify-content: space-between;
   align-items: flex-start; }
   .top-part__logo2 {
@@ -65,8 +69,9 @@ a:hover {
     margin-top: .9rem; }
 
 .bottom-part {
-  padding-left: .5rem;
-  padding-top: 7rem; }
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 90%; }
 
 .top-text,
 .center-text,
@@ -77,17 +82,34 @@ a:hover {
 .top-text {
   font-size: 1rem;
   text-transform: uppercase;
-  font-weight: 400;
-  line-height: 2.9rem; }
+  font-weight: 300;
+  line-height: 2rem; }
 
 .center-text {
   font-weight: 900;
   font-size: 3.3rem;
   line-height: 3.9rem;
-  letter-spacing: .09rem; }
+  letter-spacing: .01rem; }
+  .center-text__box2 {
+    font-weight: 900;
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: .02rem; }
 
 .bottom-text {
   font-size: .7rem;
+  padding-top: 9px;
+  color: #808080;
+  font-weight: 600; }
+
+.bottom-part__sub {
+  align-items: center; }
+
+.icon-clock {
+  padding: 5px 2px 0 6px;
+  font-size: 1.3rem;
   color: #808080; }
 
 .header {
@@ -153,9 +175,19 @@ a:hover {
     background-size: cover;
     background-position: center; }
   .section-topstory__container-box1 {
+    display: flex;
+    flex-direction: column;
     padding: 0.63rem;
     background-image: linear-gradient(to bottom, rgba(133, 22, 24, 0.6), #080808), url(/img/Ethernet-796x417.jpg); }
   .section-topstory__container-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem;
     background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(/img/Google-podcasts-796x417.jpg); }
   .section-topstory__container-box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem;
     background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(/img/Snag_1f80f313.png); }
