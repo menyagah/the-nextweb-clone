@@ -49,15 +49,8 @@
 
 
 .section-latestnews {
-    display: grid;
     height: auto;
     background-color: grey;
-    grid-gap: 8px;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .01fr 1fr 1fr;
    
     &__heading {
         padding: 30px 0 30px 0;
@@ -73,66 +66,6 @@
     &__container8 {
         background-color: indigo;
         height: 18.75rem;
-    }
-
-    
-    &__container1 {
-        
-        grid-column: 1 / 2;
-        grid-row: 2 / 3;
-        
-    
-    }
-    
-    &__container2 {
-        
-        grid-column: 2 / 3;
-        grid-row: 2 / 3;
-        
-    
-    }
-    
-    &__container3 {
-        
-        grid-column: 3 / 4;
-        grid-row: 2 / 3;
-        
-    
-    }
-    &__container4 {
-        
-        grid-column: 4 / 5;
-        grid-row: 2 / 3;
-        
-    
-    }
-    &__container5 {
-        
-        grid-column: 1 / 2;
-        grid-row: 3 / 4;
-        
-    
-    }
-    &__container6 {
-        
-        grid-column: 2 / 3;
-        grid-row: 3 / 4;
-        
-    
-    }
-    &__container7 {
-        
-        grid-column: 3 / 4;
-        grid-row: 3 / 4;
-        
-    
-    }
-    &__container8 {
-    
-        grid-column: 4 / 5;
-        grid-row: 3 / 4;
-        
-    
     }
     
 }
