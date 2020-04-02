@@ -238,4 +238,5 @@ a:hover {
     padding: 30px 0 30px 0; }
   .section-latestnews__container1, .section-latestnews__container2, .section-latestnews__container3, .section-latestnews__container4, .section-latestnews__container5, .section-latestnews__container6, .section-latestnews__container7, .section-latestnews__container8 {
     background-color: indigo;
-    height: 18.75rem; }
+    height: 18.75rem;
+    width: 19.37rem; }
