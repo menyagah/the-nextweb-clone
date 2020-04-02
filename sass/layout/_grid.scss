@@ -44,11 +44,11 @@
 
 .section-latestnews {
     display: grid;
-    grid-gap: 8px;
+    grid-gap: 15px;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .01fr 1fr 1fr;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-template-rows: .01fr 270px 270px;
    
     &__container1 {
         grid-column: 1 / 2;

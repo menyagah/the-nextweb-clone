@@ -26,12 +26,27 @@ a:hover{
     color: $color-white;
    }
 
-.icon-search {
-    font-size: 1.5rem;
-    color: $color-grey;
+.icon {
+    &-search {
+        font-size: 1.5rem;
+        color: $color-grey;
 
-    &:hover{
-        color: $color-dark-grey;
+        &:hover{
+            color: $color-dark-grey;
+        }
+    }
+
+    &-arrow {
+        font-size: .7rem;
+        padding-top: 6.7px;
+        padding-left: 3px;
+        color: $color-black;
+    }
+
+    &-clock {
+        padding: 5px 2px 0 6px;
+        font-size: 1.3rem;
+        color: $color-grey;
     }
 }
 
@@ -42,12 +57,7 @@ a:hover{
     }
 }
 
-.icon-arrow {
-    font-size: .7rem;
-    padding-top: 6.7px;
-    padding-left: 3px;
-    color: $color-black;
-}
+
 
 .top-part,
 .bottom-part,
@@ -110,29 +120,70 @@ a:hover{
     }
 }
     
+
+.bottom-part__sub{
+    align-items: center;  
+}
+
+.section-latestnews {
+    
+    
+    &__heading {
+        padding: 20px 0 5px 0;
+        color: $color-red;
+        font-weight: 800;
+        text-decoration: none;
+        font-size: 28px;
+        line-height: 31px;
+
+        &:hover{
+            color: $color-dark-grey;
+        }
+    } 
+
+    
+
+    &__img{
+        width: 270px;
+        height: 9.25rem;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+
+
+}
+
+.latestnews-center{
+    padding-top: 11px;
+
+    &-text{
+        color: $color-black;
+        text-decoration: none;
+        font-weight: 900;
+        letter-spacing: .03rem;
+        line-height: 20px;
+        font-size: 16px; 
+
+        &:hover {
+            color: $color-red;
+            text-decoration: underline;
+        }
+        
+    }
+}
+
+
+
 .bottom-text {
     font-size: .7rem;
     padding-top: 9px;
     color: $color-grey;
     font-weight: 600;
-}
+    text-decoration: none;
 
-.bottom-part__sub{
-    align-items: center;  
+    &-1:hover {
+        color: $color-dark-grey;
+    }
 }
-.icon-clock {
-    padding: 5px 2px 0 6px;
-    font-size: 1.3rem;
-    color: $color-grey;
-}
-
-
-.section-latestnews__img{
-    width: 19.37rem;
-    height: 9.25rem;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
- 
