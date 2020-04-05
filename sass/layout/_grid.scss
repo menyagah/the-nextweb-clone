@@ -1,5 +1,11 @@
-.header {
+.header,
+.section-topstory,
+.section-latestnews {
     display: grid;
+}
+
+
+.header {
     grid-template-columns: .1fr 1fr;
     grid-template-rows: 1fr 2fr 1fr;
     
@@ -23,7 +29,7 @@
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 8px;
-    display: grid;
+    
 
     &__container-box1{
         grid-column: 1 / 2;
@@ -43,7 +49,6 @@
 
 
 .section-latestnews {
-    display: grid;
     grid-gap: 15px;
     align-items: center;
     justify-content: center;

@@ -5,14 +5,20 @@
     &__container-box1,
     &__container-box2,
     &__container-box3{
+        display: flex;
+        flex-direction: column;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
 
+    
+    &__container-box2,
+    &__container-box3{
+        justify-content: flex-end;
+    }
+
     &__container-box1{
-        display: flex;
-        flex-direction: column;
         padding: 0.63rem;
         background-image: linear-gradient( 
             to  bottom, 
@@ -22,9 +28,6 @@
     }
     
     &__container-box2{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
         padding: 1rem;
         background-image: linear-gradient( 
             to  bottom,
@@ -34,9 +37,6 @@
     }
     
     &__container-box3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
         padding: 1rem;
         background-image: linear-gradient( 
             to  bottom,

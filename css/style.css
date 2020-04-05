@@ -97,7 +97,7 @@ a:hover {
   letter-spacing: .01rem; }
   .center-text__box2 {
     font-weight: 900;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     line-height: 1.8rem;
     text-decoration: none;
     color: #fff;
@@ -171,8 +171,12 @@ a:hover {
     justify-content: center;
     width: 4rem; }
 
+.header,
+.section-topstory,
+.section-latestnews {
+  display: grid; }
+
 .header {
-  display: grid;
   grid-template-columns: .1fr 1fr;
   grid-template-rows: 1fr 2fr 1fr; }
   .header__top-container {
@@ -188,8 +192,7 @@ a:hover {
 .section-topstory {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 8px;
-  display: grid; }
+  grid-gap: 8px; }
   .section-topstory__container-box1 {
     grid-column: 1 / 2;
     grid-row: 1 / 3; }
@@ -201,7 +204,6 @@ a:hover {
     grid-row: 2/ 3; }
 
 .section-latestnews {
-  display: grid;
   grid-gap: 15px;
   align-items: center;
   justify-content: center;
@@ -236,24 +238,20 @@ a:hover {
   padding: 1px 7px 30px 7px;
   height: 500px; }
   .section-topstory__container-box1, .section-topstory__container-box2, .section-topstory__container-box3 {
+    display: flex;
+    flex-direction: column;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
+  .section-topstory__container-box2, .section-topstory__container-box3 {
+    justify-content: flex-end; }
   .section-topstory__container-box1 {
-    display: flex;
-    flex-direction: column;
     padding: 0.63rem;
     background-image: linear-gradient(to bottom, rgba(133, 22, 24, 0.6), #080808), url(/img/Ethernet-796x417.jpg); }
   .section-topstory__container-box2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     padding: 1rem;
     background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(/img/Google-podcasts-796x417.jpg); }
   .section-topstory__container-box3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     padding: 1rem;
     background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(/img/Snag_1f80f313.png); }
 
