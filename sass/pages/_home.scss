@@ -1,6 +1,6 @@
 .section-topstory{
     padding: 1px 7px 30px 7px;
-    height: 500px;
+    height: auto;
     
     &__container-box1,
     &__container-box2,
@@ -49,7 +49,8 @@
 
 
 .section-latestnews {
-    height: 700px;
+    height: auto;
+    padding-bottom: 40px;
     vertical-align: top;
 
     &__container1,
@@ -70,13 +71,21 @@
 }
 
 .section-latestfund {
-  height: 700px;
-
+  height: auto;
+  
+ 
   &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
+
+  &__container1,
+  &__container2,
+  &__container3,
+  &__container4 {
+      height: 270px;
+  }
 
 }
 

@@ -187,3 +187,17 @@ a:hover{
         color: $color-dark-grey;
     }
 }
+
+.section-latestfund {
+    &__nav {
+        font-size: 1rem; 
+        text-decoration: none;
+        line-height: 0.88rem;
+        font-weight: 500;
+        color: $color-red;
+
+        &:hover{
+            color: $color-dark-grey;
+        }
+    }
+}  
