@@ -48,6 +48,10 @@ a:hover{
         font-size: 1.3rem;
         color: $color-grey;
     }
+
+    &-tag {
+        padding-right: 0.44rem;
+    }
 }
 
 .last-nav__text {
@@ -201,3 +205,113 @@ a:hover{
         }
     }
 }  
+
+
+.latestfund{
+    &__img {
+        height: 80px;
+        float: left;
+        padding: 10px 10px 0 10px;
+    
+    }
+    
+    &__top {
+        background-color: #EF4430;
+        height: 40px;
+    }
+    
+    &__center{
+        background-color: $color-light-red;
+        height: 70px;  
+    }
+    
+    &__bottom1 {
+        padding: 10px 10px 0 10px;
+        background-color: $color-cream;
+        height: 80px;
+    }
+
+    &__bottom2 {
+        padding: 10px 10px 0 10px;
+        background-color: $color-cream;
+        height: 80px;
+        border-top: .1px solid $color-red;
+    }
+
+
+
+    &-top1{
+        padding-top: 10px;
+    }
+    
+    &-toplink1 {
+        text-decoration: none;
+        color: $color-white;
+        font-weight: 900;
+        font-size: 0.88rem;
+
+        &:hover {
+            color: $color-white;
+        }
+    }
+    
+    &__top2{
+        padding-top: 20px;
+    }
+    
+    &-toplink2 {
+        text-decoration: none;
+        color: $color-black;
+        font-weight: 900;
+        font-size: 0.88rem;
+
+        &:hover {
+            color: $color-black;  
+        }
+    }
+    
+    &-toplink3 {
+        text-decoration: none;
+        color: $color-grey;
+        font-weight: 500;
+        font-size: 0.66rem;
+
+        &:hover {
+            color: $color-grey;
+        }
+    }
+    
+    &-toplink4 {
+        text-decoration: none;
+        color: $color-dark-grey;
+        padding-bottom: 0.62rem;
+        font-weight: 400;
+        font-size: 0.79rem;
+        line-height: 1.2rem;
+
+        &:hover {
+            color: $color-black;
+        }
+    }
+
+    &-text {
+        text-decoration: none;
+        font-size: 0.75rem;
+        line-height: 1.31rem;
+        color: $color-dark-grey;
+
+        &:hover {
+            color: $color-dark-grey;
+        }
+
+    }
+
+    &-span {
+        color: $color-grey;
+
+    }
+
+   
+
+}
+

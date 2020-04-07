@@ -1,5 +1,5 @@
 .section-topstory{
-    padding: 1px 7px 30px 7px;
+    padding: 1px 7px 100px 7px;
     height: auto;
     
     &__container-box1,
@@ -50,7 +50,7 @@
 
 .section-latestnews {
     height: auto;
-    padding-bottom: 40px;
+    padding-bottom: 6.25rem;
     vertical-align: top;
 
     &__container1,
@@ -61,8 +61,8 @@
     &__container6,
     &__container7,
     &__container8 {
-        height: 240px;
-        width: 280px;
+        height: 15rem;
+        width: 17.5rem;
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
@@ -84,7 +84,7 @@
   &__container2,
   &__container3,
   &__container4 {
-      height: 270px;
+      height: 16.88rem;
   }
 
 }
