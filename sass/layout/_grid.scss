@@ -61,6 +61,11 @@
     grid-gap: 15px;
     grid-template-columns: 270px 270px 270px 270px;
     grid-template-rows: .01fr 270px 270px;
+
+    &__deals {
+        grid-column: 1 / 5;
+        grid-row: 1 / 2 ;
+    }
    
     &__container1 {
         grid-column: 1 / 2;

@@ -67,6 +67,12 @@
         justify-content: flex-start;
         flex-direction: column;
     }
+
+    &__deals {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
     
 }
 
@@ -91,6 +97,7 @@
 
 .section-apps {
     height: auto;
+    padding-bottom: 6.25rem;
 
     &__top,
     &__top2,

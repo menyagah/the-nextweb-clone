@@ -143,6 +143,21 @@ a:hover{
         &:hover{
             color: $color-dark-grey;
         }
+
+        &2{
+            padding: 20px 0 5px 0;
+            color: $color-red;
+            font-weight: 500;
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 31px;  
+
+            &:hover{
+                color: $color-dark-grey;
+            }
+
+
+        }
     } 
 
     
@@ -155,6 +170,8 @@ a:hover{
         background-repeat: no-repeat;
         
     }
+
+    
 
 
 }
@@ -180,7 +197,8 @@ a:hover{
 
 
 
-.bottom-text {
+.bottom-text,
+.bottom-text1 {
     font-size: .7rem;
     padding-top: 9px;
     color: $color-grey;
@@ -189,6 +207,14 @@ a:hover{
 
     &-1:hover {
         color: $color-dark-grey;
+    }
+
+    &1 {
+        font-size: 1rem;
+    }
+
+    &__price {
+        text-decoration: line-through;
     }
 }
 
@@ -398,3 +424,6 @@ a:hover{
         }
     }
 }
+
+
+

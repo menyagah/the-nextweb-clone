@@ -118,6 +118,15 @@ a:hover {
   line-height: 31px; }
   .section-latestnews__heading:hover {
     color: #2c2b2b; }
+  .section-latestnews__heading2 {
+    padding: 20px 0 5px 0;
+    color: #ef4430;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 31px; }
+    .section-latestnews__heading2:hover {
+      color: #2c2b2b; }
 
 .section-latestnews__img {
   width: 270px;
@@ -139,14 +148,22 @@ a:hover {
       color: #ef4430;
       text-decoration: underline; }
 
-.bottom-text {
+.bottom-text,
+.bottom-text1 {
   font-size: .7rem;
   padding-top: 9px;
   color: #808080;
   font-weight: 600;
   text-decoration: none; }
-  .bottom-text-1:hover {
+  .bottom-text-1:hover,
+  .bottom-text1-1:hover {
     color: #2c2b2b; }
+  .bottom-text1,
+  .bottom-text11 {
+    font-size: 1rem; }
+  .bottom-text__price,
+  .bottom-text1__price {
+    text-decoration: line-through; }
 
 .section-latestfund__nav {
   font-size: 1rem;
@@ -356,6 +373,9 @@ a:hover {
   grid-gap: 15px;
   grid-template-columns: 270px 270px 270px 270px;
   grid-template-rows: .01fr 270px 270px; }
+  .section-latestnews__deals {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2; }
   .section-latestnews__container1 {
     grid-column: 1 / 2;
     grid-row: 2 / 3; }
@@ -463,6 +483,10 @@ a:hover {
     display: flex;
     justify-content: flex-start;
     flex-direction: column; }
+  .section-latestnews__deals {
+    align-items: center;
+    display: flex;
+    justify-content: space-between; }
 
 .section-latestfund {
   height: auto; }
@@ -474,7 +498,8 @@ a:hover {
     height: 16.88rem; }
 
 .section-apps {
-  height: auto; }
+  height: auto;
+  padding-bottom: 6.25rem; }
   .section-apps__top, .section-apps__top2, .section-apps__top3, .section-apps__center2, .section-apps__centertext {
     display: flex; }
   .section-apps__top, .section-apps__top2, .section-apps__top3, .section-apps__centertext {
