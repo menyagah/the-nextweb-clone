@@ -232,6 +232,60 @@ a:hover {
 .latestfund-span {
   color: #808080; }
 
+.section-apps__text {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 2rem;
+  text-decoration: none;
+  color: #fff; }
+
+.section-apps__center {
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: .02rem; }
+  .section-apps__center:hover {
+    text-decoration: underline #808080; }
+
+.section-apps__list {
+  text-decoration: none;
+  padding: 10px 0 10px 0;
+  list-style: none;
+  font-size: 0.81rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  border-bottom: 0.09px solid #d3cfcf; }
+  .section-apps__list::before {
+    content: "\2022";
+    width: -1em;
+    margin-left: 0;
+    color: #ef4430;
+    display: inline-block; }
+
+.section-apps__list2 {
+  text-decoration: none;
+  color: #808080; }
+  .section-apps__list2:hover {
+    color: #2c2b2b; }
+
+.center-text__heading {
+  color: #ef4430;
+  font-size: 0.81rem;
+  line-height: 1.25rem; }
+
+.center-text__content {
+  color: #ef4430;
+  font-size: 0.88rem;
+  font-weight: 900;
+  line-height: 1.13rem;
+  text-decoration: none; }
+  .center-text__content:hover {
+    color: #ef4430;
+    text-decoration: underline #808080; }
+
 .header {
   height: 6.6rem; }
   .header__top-container, .header__center-container, .header__last-container, .header__search-bar, .header__last-nav {
@@ -261,11 +315,13 @@ a:hover {
 .header,
 .section-topstory,
 .section-latestnews,
-.section-latestfund {
+.section-latestfund,
+.section-apps {
   display: grid; }
 
 .section-latestfund,
-.section-latestnews {
+.section-latestnews,
+.section-apps {
   align-items: center;
   justify-content: center; }
 
@@ -334,20 +390,47 @@ a:hover {
     grid-row: 1 / 2; }
   .section-latestfund__container1 {
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    background-color: lightgreen; }
+    grid-row: 2 / 3; }
   .section-latestfund__container2 {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    background-color: lightgreen; }
+    grid-row: 2 / 3; }
   .section-latestfund__container3 {
     grid-column: 3 / 4;
-    grid-row: 2 / 3;
-    background-color: lightgreen; }
+    grid-row: 2 / 3; }
   .section-latestfund__container4 {
     grid-column: 4 / 5;
-    grid-row: 2 / 3;
-    background-color: lightgreen; }
+    grid-row: 2 / 3; }
+
+.section-apps {
+  grid-template-columns: 348px 348px 348px;
+  grid-template-rows: 650px 650px 650px;
+  grid-gap: 28px; }
+  .section-apps__container1, .section-apps__container2, .section-apps__container3, .section-apps__container4, .section-apps__container5, .section-apps__container6, .section-apps__container7, .section-apps__container8 {
+    height: 600px; }
+  .section-apps__container1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2; }
+  .section-apps__container2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2; }
+  .section-apps__container3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2; }
+  .section-apps__container4 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3; }
+  .section-apps__container5 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3; }
+  .section-apps__container6 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3; }
+  .section-apps__container7 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 3; }
+  .section-apps__container8 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 3; }
 
 .section-topstory {
   padding: 1px 7px 100px 7px;
@@ -389,3 +472,42 @@ a:hover {
     align-items: center; }
   .section-latestfund__container1, .section-latestfund__container2, .section-latestfund__container3, .section-latestfund__container4 {
     height: 16.88rem; }
+
+.section-apps {
+  height: auto; }
+  .section-apps__top, .section-apps__top2, .section-apps__top3, .section-apps__center2, .section-apps__centertext {
+    display: flex; }
+  .section-apps__top, .section-apps__top2, .section-apps__top3, .section-apps__centertext {
+    flex-direction: column; }
+  .section-apps__top, .section-apps__top2, .section-apps__top3 {
+    justify-content: flex-end;
+    padding: 0 0 10px 10px;
+    height: 220px;
+    width: 348px;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(/img/app1.png); }
+  .section-apps__top2 {
+    background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(/img/app3.jpg); }
+  .section-apps__top3 {
+    background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(/img/app2.jpg); }
+  .section-apps__center2 {
+    background-color: #FCE7E5;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 2px; }
+  .section-apps__centertext {
+    padding: 10px 0 30px 10px; }
+  .section-apps__centerimage, .section-apps__centerimage1, .section-apps__centerimage2 {
+    height: 100px;
+    width: 90px;
+    background-image: url(/img/1-8-796x417.jpg);
+    background-size: cover; }
+  .section-apps__centerimage1 {
+    background-image: url(/img/DDeBooks-796x417.jpg);
+    background-size: cover; }
+  .section-apps__centerimage2 {
+    background-image: url(/img/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-796x449.png);
+    background-position: center; }
+  .section-apps__bottom {
+    display: flex;
+    flex-direction: column; }

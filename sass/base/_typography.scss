@@ -315,3 +315,86 @@ a:hover{
 
 }
 
+
+.section-apps{
+
+    &__text {
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        line-height: 2rem;
+        text-decoration: none;
+        color: $color-white;
+          
+    }
+
+
+    &__center{
+        font-weight: 900;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        text-decoration: none;
+        color: $color-white;
+        letter-spacing: .02rem;
+
+        &:hover {
+            text-decoration: underline $color-grey;
+            
+        }
+
+    }
+
+    &__list {
+        text-decoration: none;
+        padding: 10px 0 10px 0;
+        list-style: none;
+        font-size: 0.81rem;
+        font-weight: 400;
+        line-height: 1.25rem;
+        border-bottom: .09px solid $color-grey-2;
+
+       &::before {
+            content: "\2022";
+            width: -1em;
+            margin-left: 0;
+            color: $color-red;
+            display: inline-block;
+        }
+
+    }
+
+    &__list2{
+        text-decoration: none;
+        color: $color-grey;
+
+        &:hover {
+            color: $color-dark-grey;
+        }
+        
+    }
+
+    
+}
+
+.center-text {
+    
+    &__heading{
+        color: $color-red;
+        font-size: 0.81rem;
+        line-height: 1.25rem;
+    }
+
+    &__content {
+        color: $color-red;
+        font-size: 0.88rem;
+        font-weight: 900;
+        line-height: 1.13rem;
+        text-decoration: none;
+
+        &:hover {
+            color: $color-red;
+            text-decoration: underline $color-grey;
+
+        }
+    }
+}

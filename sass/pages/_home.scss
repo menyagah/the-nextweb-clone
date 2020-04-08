@@ -89,6 +89,96 @@
 
 }
 
+.section-apps {
+    height: auto;
+
+    &__top,
+    &__top2,
+    &__top3,
+    &__center2,
+    &__centertext {
+        display: flex;
+    }
+
+    &__top,
+    &__top2,
+    &__top3,
+    &__centertext {
+        flex-direction: column;
+        
+    }
+
+    &__top,
+    &__top2,
+    &__top3 {
+        justify-content: flex-end;
+        padding: 0 0 10px 10px;
+        height: 220px;
+        width: 348px;
+        background-size: cover;
+        background-image: linear-gradient( 
+            to  bottom, 
+            rgba($color-gradient-gray, .1),
+            rgba($color-gradient-dark2, 3)),   
+        url(/img/app1.png)
+    }
+
+    &__top2 {
+        background-image: linear-gradient( 
+            to  bottom, 
+            rgba($color-gradient-gray, .1),
+            rgba($color-gradient-dark2, 3)),   
+        url(/img/app3.jpg)
+    }
+
+    &__top3 {
+        background-image: linear-gradient( 
+            to  bottom, 
+            rgba($color-gradient-gray, .1),
+            rgba($color-gradient-dark2, 3)),   
+        url(/img/app2.jpg)
+    }
+
+    &__center2{
+        background-color: $color-light-red;
+        justify-content: space-between;
+        height: 100px;
+        margin-top: 2px;
+    }
+
+    &__centertext  {
+        padding: 10px 0 30px 10px;
+    }
+
+    &__centerimage,
+    &__centerimage1,
+    &__centerimage2{
+        height: 100px;
+        width: 90px;
+        background-image: url(/img/1-8-796x417.jpg);
+        background-size: cover;
+        
+    }
+
+    &__centerimage1 {
+        background-image: url(/img/DDeBooks-796x417.jpg);
+        background-size: cover;
+        
+    }
+
+    &__centerimage2 {
+        background-image: url(/img/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-796x449.png);
+        background-position: center;
+
+    }
+
+    &__bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
 
 
 
