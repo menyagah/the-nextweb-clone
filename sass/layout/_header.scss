@@ -1,5 +1,6 @@
 .header {
     height: 6.6rem;
+    margin-bottom: 7px;
 
     &__top-container,
     &__center-container,
@@ -9,6 +10,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    }
+
+    &__logo-container {
+        @include respond(phone) {
+            height: 55px;
+            
+        }
+
+        @include respond(big-tab) {
+            width: 130px;
+            background-image: url(../img/download.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
     }
 
     &__top-container {
@@ -22,6 +39,11 @@
         background-color: $color-header-center; 
         height: 3.1rem;
         padding: 0 0 0 1.25rem;
+
+        @include respond(phone) {
+            height: 55px;
+            
+        }
     }
 
     &__last-container {
@@ -29,17 +51,27 @@
         height: 1.6rem;
         justify-content: flex-start;
         padding: 0 1.88rem 0 1.25rem;
+
+        @include respond(phone) {
+            justify-content: center;
+            height: 55px;
+            
+        }
+
+        
     }
 
     &__search-bar,
     &__last-nav {
         height: 100%;
+        
     }
+
 
     &__search-bar {
         border-left: 1px solid $color-border;
         justify-content: center;
-        width: 4rem;
+        width: 4rem; 
     } 
 }
 

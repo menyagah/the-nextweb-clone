@@ -1,6 +1,11 @@
 .section-topstory{
-    padding: 1px 7px 100px 7px;
+    padding: 1px 7px 0 7px;
     height: auto;
+
+    @include respond(big-tab) {
+        height: auto;
+        
+    }
     
     &__container-box1,
     &__container-box2,
@@ -53,6 +58,8 @@
     padding-bottom: 6.25rem;
     vertical-align: top;
 
+   
+
     &__container1,
     &__container2,
     &__container3,
@@ -61,11 +68,26 @@
     &__container6,
     &__container7,
     &__container8 {
-        height: 15rem;
-        width: 17.5rem;
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
+        height: 16rem;  
+        
+
+        @include respond(normal) {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            
+        }
+
+        @include respond(phone) {
+            display: flex;
+            height: auto;
+            
+        }
+
+
+
+        
+
     }
 
     &__deals {

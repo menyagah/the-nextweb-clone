@@ -16,6 +16,10 @@
     padding: 0 1rem 0 0;
     line-height: 0.7rem;
 
+    @include respond(phone) {
+        display: none;
+    }
+
     &:hover{
         color: $color-black; 
     }
@@ -26,10 +30,22 @@ a:hover{
     color: $color-white;
    }
 
+.navi-center {
+    @include respond(mini-laptop) {
+        display: none;
+    }
+}
+
+
+
 .icon {
     &-search {
         font-size: 1.5rem;
         color: $color-grey;
+
+        @include respond(phone) {
+            font-size: 1.3rem;
+        }
 
         &:hover{
             color: $color-dark-grey;
@@ -76,6 +92,22 @@ a:hover{
 
     &__logo2{
         width: 30rem;
+
+        @include respond(laptop) {
+            width: 25rem;
+            
+        }
+    
+    
+        @include respond(mini-laptop) {
+            width: 20rem;
+            
+        }
+
+        @include respond(big-tab) {
+            display: none;
+            
+        }
         
     }
 
@@ -83,6 +115,13 @@ a:hover{
         color: $color-header-center;
         font-weight: 400;
         margin-top: .9rem;
+
+        
+
+        @include respond(big-tab) {
+            display: none;
+            
+        }
         
     }
 }
@@ -100,6 +139,7 @@ a:hover{
     text-decoration: none;
 }
 
+
 .top-text {
     font-size: 1rem;
     text-transform: uppercase;
@@ -114,6 +154,25 @@ a:hover{
     line-height: 3.9rem;
     letter-spacing: .01rem;
 
+    @include respond(laptop) {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        
+    }
+
+
+    @include respond(mini-laptop) {
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        
+    }
+
+    @include respond(tablet) {
+        font-size: 1rem;
+        line-height: 1rem;
+        
+    }
+
     &__box2{
         font-weight: 900;
         font-size: 1.6rem;
@@ -121,6 +180,19 @@ a:hover{
         text-decoration: none;
         color: $color-white;
         letter-spacing: .02rem;
+
+        @include respond(laptop) {
+            font-size: 1rem;
+            line-height: 1rem;
+            
+        }
+    
+    
+        @include respond(mini-laptop) {
+            font-size: 1rem;
+            line-height: 1rem;
+            
+        }
     }
 }
     
@@ -130,7 +202,7 @@ a:hover{
 }
 
 .section-latestnews {
-    
+             
     
     &__heading {
         padding: 20px 0 5px 0;
@@ -139,6 +211,12 @@ a:hover{
         text-decoration: none;
         font-size: 28px;
         line-height: 31px;
+
+        @include respond(phone) {
+            padding-left: 10px;
+            font-size: 23px;
+            
+        }
 
         &:hover{
             color: $color-dark-grey;
@@ -166,8 +244,27 @@ a:hover{
         width: 270px;
         height: 9.25rem;
         background-size: cover;
-        background-position: center;
+        background-position: 50% 50%;
         background-repeat: no-repeat;
+
+        @include respond(mini-laptop) {
+            width: 230px; 
+        }
+
+        @include respond(tablet) {
+            width: 230px;
+            object-fit: cover;
+            
+            
+        }
+
+        @include respond(phone) {
+            width: 100px;
+            height: 90px;
+            object-fit: cover;
+            padding-left: 20px;
+            
+        }
         
     }
 
@@ -178,6 +275,14 @@ a:hover{
 
 .latestnews-center{
     padding-top: 11px;
+
+    @include respond(phone) {
+        width: 100%;
+        padding-left: 20px;
+        
+    }
+
+
 
     &-text{
         color: $color-black;
@@ -191,6 +296,24 @@ a:hover{
             color: $color-red;
             text-decoration: underline;
         }
+
+        @include respond(tablet) {
+            
+            letter-spacing: .01rem;
+            line-height: 18px;
+            font-size: 13px; 
+            
+        }
+
+        @include respond(mini-laptop) {
+            
+            letter-spacing: .03rem;
+            line-height: 17px;
+            font-size: 14px; 
+            
+        }
+
+        
         
     }
 }
