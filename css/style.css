@@ -1231,7 +1231,7 @@ a:hover {
   grid-gap: 15px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.01fr 1fr 1fr;
-} 
+}
 
 @media (max-width: 1214px) {
   .section-latestnews {
