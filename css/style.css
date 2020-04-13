@@ -48,8 +48,7 @@ li {
   color: #000;
 }
 
-a:nth-child(1),
-.navi,
+a:nth-child(1) .navi,
 a:hover {
   color: #fff;
 }
