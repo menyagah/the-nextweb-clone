@@ -1,6 +1,13 @@
 .header {
   height: 6.6rem;
   margin-bottom: 7px;
+  grid-template-columns: 130px 1fr 65px;
+  grid-template-rows: 30px 50px 30px;
+
+  @include respond(phone) {
+    grid-template-rows: 1fr 1fr;
+  }
+
 
   &__top-container,
   &__center-container,
@@ -14,7 +21,9 @@
 
   &__logo-container {
     @include respond(phone) {
-      height: 55px;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        height: 55px;
     }
 
     @include respond(big-tab) {
@@ -23,6 +32,8 @@
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+      grid-column: 1 / 2;
+      grid-row: 1 / 3;
     }
   }
 
@@ -30,16 +41,36 @@
     background-color: $color-header-top;
     height: 1.9rem;
     padding: 0.38rem 1.88rem 0 1.25rem;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    
+    @include respond(phone) {
+          display: none;
+    }
+    
+    @include respond(big-tab) {
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+    }
   }
 
   &__center-container {
     background-color: $color-header-center;
     height: 3.1rem;
     padding: 0 0 0 1.25rem;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
 
     @include respond(phone) {
       height: 55px;
+      grid-column: 2 / 4;
+      grid-row: 1 / 3;
     }
+
+    @include respond(big-tab) {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+      }
   }
 
   &__last-container {
@@ -47,6 +78,8 @@
     height: 1.6rem;
     justify-content: flex-start;
     padding: 0 1.88rem 0 1.25rem;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
 
     @include respond(phone) {
       justify-content: center;
@@ -63,5 +96,18 @@
     border-left: 1px solid $color-border;
     justify-content: center;
     width: 4rem;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+
+    @include respond(phone) {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+      }
+  
+    @include respond(big-tab) {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
   }
 }
+
