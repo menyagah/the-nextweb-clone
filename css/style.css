@@ -886,13 +886,13 @@ a:hover {
     justify-content: flex-end; }
   .section-topstory__container-box1 {
     padding: 0.63rem;
-    background-image: linear-gradient(to bottom, rgba(133, 22, 24, 0.6), #080808), url(/img/Ethernet-796x417.jpg); }
+    background-image: linear-gradient(to bottom, rgba(133, 22, 24, 0.6), #080808), url(../img/Ethernet-796x417.jpg); }
   .section-topstory__container-box2 {
     padding: 1rem;
-    background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(/img/Google-podcasts-796x417.jpg); }
+    background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(../img/Google-podcasts-796x417.jpg); }
   .section-topstory__container-box3 {
     padding: 1rem;
-    background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(/img/Snag_1f80f313.png); }
+    background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(../img/Snag_1f80f313.png); }
 
 .section-latestnews {
   height: auto;
