@@ -4,5 +4,5 @@ linters:
     config: 'stylelint.config.js'
     # Use css-lint to check CSS files.
   csslint:
-    ignore: 'sass/'
+    enable: false
   
