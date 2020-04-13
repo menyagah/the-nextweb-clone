@@ -987,13 +987,13 @@ a:hover {
   .section-apps__centerimage, .section-apps__centerimage1, .section-apps__centerimage2 {
     height: 100px;
     width: 90px;
-    background-image: url(/img/1-8-796x417.jpg);
+    background-image: url(../img/1-8-796x417.jpg);
     background-size: cover; }
   .section-apps__centerimage1 {
-    background-image: url(/img/DDeBooks-796x417.jpg);
+    background-image: url(../img/DDeBooks-796x417.jpg);
     background-size: cover; }
   .section-apps__centerimage2 {
-    background-image: url(/img/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-796x449.png);
+    background-image: url(../img/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-796x449.png);
     background-position: center; }
   .section-apps__bottom {
     display: flex;
