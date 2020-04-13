@@ -1,0 +1,25 @@
+{
+  "name": "nextweb",
+  "version": "1.0.0",
+  "description": "A cloned landing page of the nextweb website with mobile responsiveness",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menyagah/the-nextweb-clone.git"
+  },
+  "author": "Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/menyagah/the-nextweb-clone/issues"
+  },
+  "homepage": "https://github.com/menyagah/the-nextweb-clone#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "stylelint": "^13.3.2",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "dependencies": {}
+}
