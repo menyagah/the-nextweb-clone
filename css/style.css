@@ -972,11 +972,11 @@ a:hover {
     height: 220px;
     width: auto;
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(/img/app1.png); }
+    background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(../img/app1.png); }
   .section-apps__top2 {
-    background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(/img/app3.jpg); }
+    background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(../img/app3.jpg); }
   .section-apps__top3 {
-    background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(/img/app2.jpg); }
+    background-image: linear-gradient(to bottom, rgba(130, 136, 143, 0.1), #010101), url(../img/app2.jpg); }
   .section-apps__center2 {
     background-color: #FCE7E5;
     justify-content: space-between;
