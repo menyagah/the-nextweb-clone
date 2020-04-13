@@ -1,8 +1,8 @@
 # the-nextweb-clone
 A clone of the nextweb website with it's mobile responsiveness.
-- Below is a screenshot of the apple clone in action.
+- Below is a screenshot of the nextweb clone in action.
 
-![screenshot](img/screenshotmobile.png)
+![screenshot](img/screenshot-mobile.png)
 ![screenshot](img/screenshottablet.png)
 
 
