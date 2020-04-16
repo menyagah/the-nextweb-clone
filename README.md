@@ -16,7 +16,7 @@ This was a solo project. The project uses basic html5 and css3.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/menyagah/the-nextweb-clone/2b20a4386a417f058fddde2fd3fb34572e4b365d/index.html)
+[Live Demo Link](https://rawcdn.githack.com/menyagah/the-nextweb-clone/af32d4ac81e0ac4185baeda7f4716d58408ae3ee/index.html)
 
 
 ## Getting Started
