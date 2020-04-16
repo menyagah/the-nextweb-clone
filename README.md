@@ -3,7 +3,7 @@ A clone of the nextweb website with it's mobile responsiveness.
 - Below is a screenshot of the nextweb clone in action.
 
 ![screenshot](img/screenshot-mobile.png)
-![screenshot](img/screenshottablet.png)
+
 
 
 This was a solo project. The project uses basic html5 and css3. 
