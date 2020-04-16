@@ -1,0 +1,8 @@
+linters:
+  stylelint:
+    # indicate where is the config file for stylelint
+    config: 'stylelint.config.js'
+    # Use css-lint to check CSS files.
+  csslint:
+    enable: false
+  
