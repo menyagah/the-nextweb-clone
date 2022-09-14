@@ -1,3 +1,7 @@
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/menyagah/the-nextweb-clone/af32d4ac81e0ac4185baeda7f4716d58408ae3ee/index.html)
+
 # the-nextweb-clone
 A clone of the nextweb website with it's mobile responsiveness.
 - Below is a screenshot of the nextweb clone in action.
@@ -12,12 +16,6 @@ This was a solo project. The project uses basic html5 and css3.
 
 - Html5
 - css3
-
-
-## Live Demo
-
-[Live Demo Link](https://rawcdn.githack.com/menyagah/the-nextweb-clone/af32d4ac81e0ac4185baeda7f4716d58408ae3ee/index.html)
-
 
 ## Getting Started
 
